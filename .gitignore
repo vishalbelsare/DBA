@@ -1,0 +1,9 @@
+# Compiled files
+*.so
+*.o
+*.pyc
+__pycache__/
+
+# Cython generated
+cython/DBA.c
+cython/build/

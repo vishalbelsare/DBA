@@ -196,7 +196,6 @@ public class DBA {
 				i += moveI[move];
 				j += moveJ[move];
 			}
-			assert (i != 0 || j != 0);
 			updatedMean[i] += T[j];
 			nElementsForMean[i]++;
 		}
